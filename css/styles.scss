@@ -1,0 +1,313 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(12, 179, 248);
+/* Menu bar */
+  .navbar {
+    color: white;
+    font-weight: 700;
+    margin-left: 98px;
+    margin-right: 98px;
+}
+  .navbar-brand {
+    color: white;
+    font-size: 16.39pt;
+}
+  .nav-link {
+    font-size: 12pt;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+    .nav-link:hover, {
+    border-bottom: 3px solid white;
+  }
+
+/*top container*/
+h1 {
+  font-size: 70pt;
+  font-weight: bold;
+  color: white;
+  margin-top: 140px;
+}
+  .hero-word {
+    font-size: 21pt;
+    color: white;
+    margin-bottom: 100px;
+  }
+  .learn {
+    font-size: 10pt;
+    color: white;
+    padding: 2px;
+    margin-left: 35px;
+  }
+    .learn:hover, {
+      color: white;
+      text-decoration: none;
+      border-bottom: 3px solid white;
+  }
+.download {
+  height: 42px;
+  width: 144px;
+  border: 1px solid white;
+  border-radius: 42px;
+  background: none;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.apple {
+  padding-right: 5px;
+  margin-top: -5px;
+}
+.btn-hover {
+  height: 42px;
+  width: 144px;
+  border: 1px solid white;
+  border-radius: 42px;
+  background: white;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(36, 37, 38);
+  font-size: 10pt;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  a {
+    color: rgb(36, 37, 38);
+      text-decoration: none;
+  }
+}
+.bar {
+  color: rgb(41, 37, 52);
+  font-size: 13pt;
+  display: inline-flex;
+  vertical-align: middle;
+  background: white;
+  width: 100%;
+  }
+  .new {
+    width: 60px;
+    height: 20px;
+    background: rgb(0, 129, 255);
+    box-shadow: 5px 9px 4px 4px #b0e7fd8f;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 9pt;
+    font-transform: uppercase;
+    margin-right: 30px;
+    margin-left: 96px;
+  }
+  #newp {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+/*end top container*/
+/*content beginning*/
+.main {
+  background: rgb(244, 245, 245);
+  color:  rgb(36, 37, 38);
+}
+#firsth2 {
+  color: rgb(36, 27, 28);
+  margin-top: 70px;
+}
+.content-sub {
+  color: rgb(116, 116, 116);
+  font-size: 15.99pt;
+  font-weight: lighter;
+  margin-bottom: 78px;
+}
+#mainh3 {
+  color: rgb(36, 27, 28);
+  font-size: 13pt;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+  }
+#mainp {
+  color: rgb(116, 116, 116);
+  font-size: 13pt;
+  text-align: center;
+  margin-bottom: 75px;
+}
+.iphone {
+  margin-bottom: 100px;
+}
+
+
+/*pricing container*/
+  .row-price {
+    background: rgb(34, 34, 34);
+    color: white;
+}
+h2 {
+  font-size: 44pt;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+#prices {
+  font-size: 12pt;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+  .price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-bottom: 110px;
+    margin-top: 40px;
+    color: rgb(36, 37, 38);
+
+    &.blue {
+      background: rgb(27, 139, 249);
+      color: white;
+          }
+  }
+    .price ul {
+    padding: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+    font-size: 14pt;
+    font-weight: normal;
+  }
+    .price p {
+      font-size: 12pt;
+      font-weight: normal;
+  }
+  .pricing {
+    background: none;
+    border: none;
+  }
+    #amount {
+      font-size: 48pt;
+      font-weight: bold;
+    }
+  #sub {
+    font-size: 16pt;
+    color: rgb(188, 198, 208);
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+/*subscribe*/
+.subscribe {
+  background-image: url(../images/cliffs.png);
+  background-size: cover;
+  color: white;
+}
+#subscribeh2 {
+  color: white;
+  margin-top: 67px;
+}
+.subscribe-sub {
+  font-size: 14pt;
+  font-weight: lighter;
+  margin-top: 22px;
+  margin-bottom: 53px;
+}
+.entrybox {
+  width: 321px;
+  height: 43px;
+  border-radius: 5px;
+  opacity: .25;
+  border: none;
+  color: white;
+  font-size: 10pt;
+  font-weight: bold;
+  margin-bottom: 96px;
+}
+
+.send {
+  width: 144px;
+  height: 42px;
+  background: white;
+  border-radius: 5px;
+  color: rgb(36, 37, 37);
+  font-size: 10pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 96px;
+}
+/*footer*/
+footer {
+  background: white;
+  color: rgb(36, 37, 38);
+  padding-top: 50px;
+  padding-left: 93px;
+  padding-right: 93px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  color: rgb(36, 37, 38);
+}
+.footie {
+    text-decoration: none;
+    color: rgb(36, 37, 38);
+    font-size: 11pt;
+    font-weight: bold;
+    padding-bottom: 45px;
+  }
+.about-us {
+  font-size: 11pt;
+  font-weight: lighter;
+    padding-top: 40px;
+}
+}
+
+input, textarea {
+  background-color: #929292;
+  outline: none;
+  color: white;
+  width: 395px;
+  height: 42px;
+  border-style: none;
+  border-radius: 8px;
+  // margin: 100px;
+}
+
+::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+
+.phone_top {
+  // margin: -30px;
+}
+
+.send {
+  width: 143px;
+  height: 42px;
+  border-style: none;
+  // margin: 200px;
+}
+
+body .social {
+    margin-right: 15px;
+}
+
+// body img.iphone {
+//     margin-bottom: -30px;
+//     margin-right: -20px; }
+//
+// body img.content-img {
+//   margin-top: -40px;
+//   margin-bottom: 40px; }

@@ -1,0 +1,245 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #0cb3f8;
+  /* Menu bar */
+  /*top container*/
+  /*end top container*/
+  /*content beginning*/
+  /*pricing container*/
+  /*subscribe*/
+  /*footer*/ }
+  body .navbar {
+    color: white;
+    font-weight: 700;
+    margin-left: 98px;
+    margin-right: 98px; }
+  body .navbar-brand {
+    color: white;
+    font-size: 16.39pt; }
+  body .nav-link {
+    font-size: 12pt;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; }
+  body .nav-link:hover {
+    border-bottom: 3px solid white; }
+  body h1 {
+    font-size: 70pt;
+    font-weight: bold;
+    color: white;
+    margin-top: 140px; }
+  body .hero-word {
+    font-size: 21pt;
+    color: white;
+    margin-bottom: 100px; }
+  body .learn {
+    font-size: 10pt;
+    color: white;
+    padding: 2px;
+    margin-left: 35px; }
+  body .learn:hover {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white; }
+  body .download {
+    height: 42px;
+    width: 144px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.04em; }
+    body .download a {
+      text-decoration: none;
+      color: white; }
+  body .apple {
+    padding-right: 5px;
+    margin-top: -5px; }
+  body .btn-hover {
+    height: 42px;
+    width: 144px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background: white;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #242526;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: 0.04em; }
+    body .btn-hover a {
+      color: #242526;
+      text-decoration: none; }
+  body .bar {
+    color: #292534;
+    font-size: 13pt;
+    display: inline-flex;
+    vertical-align: middle;
+    background: white;
+    width: 100%; }
+  body .new {
+    width: 60px;
+    height: 20px;
+    background: #0081ff;
+    box-shadow: 5px 9px 4px 4px #b0e7fd8f;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 9pt;
+    font-transform: uppercase;
+    margin-right: 30px;
+    margin-left: 96px; }
+  body #newp {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  body .main {
+    background: #f4f5f5;
+    color: #242526; }
+  body #firsth2 {
+    color: #241b1c;
+    margin-top: 70px; }
+  body .content-sub {
+    color: #747474;
+    font-size: 15.99pt;
+    font-weight: lighter;
+    margin-bottom: 78px; }
+  body #mainh3 {
+    color: #241b1c;
+    font-size: 13pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px; }
+  body #mainp {
+    color: #747474;
+    font-size: 13pt;
+    text-align: center;
+    margin-bottom: 75px; }
+  body .iphone {
+    margin-bottom: 100px; }
+  body .row-price {
+    background: #222222;
+    color: white; }
+  body h2 {
+    font-size: 44pt;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 35px; }
+  body #prices {
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase; }
+  body .price {
+    background: white;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-bottom: 110px;
+    margin-top: 40px;
+    color: #242526; }
+    body .price.blue {
+      background: #1b8bf9;
+      color: white; }
+  body .price ul {
+    padding: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+    font-size: 14pt;
+    font-weight: normal; }
+  body .price p {
+    font-size: 12pt;
+    font-weight: normal; }
+  body .pricing {
+    background: none;
+    border: none; }
+  body #amount {
+    font-size: 48pt;
+    font-weight: bold; }
+  body #sub {
+    font-size: 16pt;
+    color: #bcc6d0;
+    font-weight: lighter;
+    padding-bottom: 40px; }
+  body .subscribe {
+    background-image: url(../images/cliffs.png);
+    background-size: cover;
+    color: white; }
+  body #subscribeh2 {
+    color: white;
+    margin-top: 67px; }
+  body .subscribe-sub {
+    font-size: 14pt;
+    font-weight: lighter;
+    margin-top: 22px;
+    margin-bottom: 53px; }
+  body .entrybox {
+    width: 321px;
+    height: 43px;
+    border-radius: 5px;
+    opacity: .25;
+    border: none;
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 96px; }
+  body .send {
+    width: 144px;
+    height: 42px;
+    background: white;
+    border-radius: 5px;
+    color: #242525;
+    font-size: 10pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 96px; }
+  body footer {
+    background: white;
+    color: #242526;
+    padding-top: 50px;
+    padding-left: 93px;
+    padding-right: 93px; }
+  body .footer-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: #242526; }
+  body .footie {
+    text-decoration: none;
+    color: #242526;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-bottom: 45px; }
+  body .about-us {
+    font-size: 11pt;
+    font-weight: lighter;
+    padding-top: 40px; }
+
+input, textarea {
+  background-color: #929292;
+  outline: none;
+  color: white;
+  width: 395px;
+  height: 42px;
+  border-style: none;
+  border-radius: 8px; }
+
+::placeholder {
+  color: white;
+  font-weight: bold; }
+
+.send {
+  width: 143px;
+  height: 42px;
+  border-style: none; }
+
+body .social {
+  margin-right: 15px; }
